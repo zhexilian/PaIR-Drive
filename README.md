@@ -23,7 +23,7 @@ End-to-end autonomous driving is typically built upon imitation learning (IL), y
 
 ## NEWS
 
-`[2025/03/26]` [ArXiv](https://arxiv.org/abs/2603.13842) paper release.
+`[2026/03/19]` [ArXiv](https://arxiv.org/abs/2603.13842) paper release.
 
 ## TODO list
 
