@@ -31,3 +31,13 @@ End-to-end autonomous driving is typically built upon imitation learning (IL), y
 - [ ] Release pretrained checkpoints
 - [ ] Release inference code
 - [ ] Release training code
+
+## Citation
+```
+@article{lian2026finetuningenoughparallelframework,
+  title   = {Fine-tuning is Not Enough: A Parallel Framework for Collaborative Imitation and Reinforcement Learning in End-to-end Autonomous Driving},
+  author  = {Zhexi Lian and Haoran Wang and Xuerun Yan and Weimeng Lin and Xianhong Zhang and Yongyu Chen and Jia Hu},
+  journal = {arXiv preprint arXiv:2603.13842},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2603.13842}}
+```
