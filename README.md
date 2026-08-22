@@ -27,6 +27,7 @@ End-to-end autonomous driving is typically built upon imitation learning (IL), y
 </div>
 Training process illustration of the parallel scheme of PaIR-Drive. IL branch follows a typical end-to-end planning fashion and is supervised by the human trajectory. Simultaneously, the RL branch builds upon human trajectories and aims to further explore better trajectories. In the RL branch, a tree-structured trajectory neural sampler is designed to recurrently predict the trajectory point offsets of driving intentions unseen in human demonstrations. Finally, we use trajectories and their simulated rewards for GRPO to update the policy.
 
+
 ## NEWS
 
 `[2026/03/19]` [ArXiv](https://arxiv.org/abs/2603.13842) paper release.
