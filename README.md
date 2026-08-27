@@ -45,6 +45,7 @@ metric-cache construction, offline candidate caching, and RWM PDM evaluation.
 - [√] Release pretrained checkpoints
 - [√] Release inference code
 
+The training code is subject to the privacy policies of our partner companies and we are trying to push the necessary open-source procedures.
 ## Citation
 ```
 @InProceedings{Lian_2026_CVPR,
