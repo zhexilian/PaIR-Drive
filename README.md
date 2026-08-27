@@ -35,20 +35,24 @@ metric-cache construction, offline candidate caching, and RWM PDM evaluation.
 
 ## NEWS
 
-`[2026/03/19]` [ArXiv](https://arxiv.org/abs/2603.13842) paper release.
+`[2026/03/19]` [ArXiv](https://arxiv.org/abs/2603.13842) paper release.  
+`[2026/06/01]` [openacess.thecvf](https://openaccess.thecvf.com/content/CVPR2026F/papers/Lian_Fine-tuning_is_Not_Enough_A_Parallel_Framework_for_Collaborative_Imitation_CVPRF_2026_paper.pdf) offical paper release.  
+`[2026/08/27]` Model checkpoints and inference pipeline release.
 
 ## TODO list
 
 - [√] Release paper
-- [ ] Release pretrained checkpoints
-- [ ] Release inference code
+- [√] Release pretrained checkpoints
+- [√] Release inference code
 
 ## Citation
 ```
-@article{lian2026finetuningenoughparallelframework,
-  title   = {Fine-tuning is Not Enough: A Parallel Framework for Collaborative Imitation and Reinforcement Learning in End-to-end Autonomous Driving},
-  author  = {Zhexi Lian and Haoran Wang and Xuerun Yan and Weimeng Lin and Xianhong Zhang and Yongyu Chen and Jia Hu},
-  journal = {arXiv preprint arXiv:2603.13842},
-  year    = {2026},
-  url     = {https://arxiv.org/abs/2603.13842}}
+@InProceedings{Lian_2026_CVPR,
+    author    = {Lian, Zhexi and Wang, Haoran and Yan, Xuerun and Lin, Weimeng and Zhang, Xianhong and Chen, Yongyu and Hu, Jia},
+    title     = {Fine-tuning is Not Enough: A Parallel Framework for Collaborative Imitation and Reinforcement Learning in End-to-end Autonomous Driving},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
+    month     = {June},
+    year      = {2026},
+    pages     = {920-930}
+}
 ```
