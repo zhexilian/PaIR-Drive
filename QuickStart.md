@@ -129,10 +129,6 @@ fallback, but new caches no longer use that name.
 
 ## 5. Run RWM selection and PDM evaluation
 
-The evaluation launcher has a `USER CONFIG` block containing the
-RWM checkpoint, metric cache, candidate cache, output directory, map path, and
-CPU worker settings. Evaluation does not require a GPU.
-
 Evaluate a DiffusionDrive cache:
 
 ```bash
@@ -140,7 +136,9 @@ bash slurm_PIR_dd_test_RWM.sh
 ```
 
 The launcher passes `diffusiondrive` as the expected base model; a cache that
-explicitly declares a different base model is rejected.
+explicitly declares a different base model is rejected.  
+
+**Cached PDM rewards are used only to report the score of the RWM-selected trajectory. RWM selection depends solely on predicted sim_logits and never accesses ground-truth rewards.**
 
 Evaluation runs in two stages. `torchrun` first splits tokens across 4
 independent CPU ranks, and each rank performs batched RWM selection. Selected
