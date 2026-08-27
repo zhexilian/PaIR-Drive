@@ -1,0 +1,1 @@
+"""Shared NAVSIM Hydra configurations."""

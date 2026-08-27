@@ -1,0 +1,14 @@
+PaIR-Drive project files are distributed under the MIT License in `LICENSE`.
+The vendored inference and evaluation subset below is derived from NAVSIM 2.2
+and remains distributed under Apache-2.0; see `LICENSE-APACHE-2.0`.
+
+Upstream project: NAVSIM
+Upstream URL: https://github.com/autonomousvision/navsim
+License: Apache License 2.0 (see LICENSE)
+
+The copied NAVSIM subset is limited to scene loading, scenario construction,
+metric-cache construction, PDM evaluation/simulation, and traffic policies.
+DiffusionDrive, Parallel-IR, and RWM files are reduced to model
+architecture, sensor preprocessing, checkpoint loading, and inference.
+Optimizers, losses, training loops, callbacks, notebooks, and visualization
+code are not included.

@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
+
+# Runtime data and outputs are intentionally external to the repository.
+*.ckpt
+*.pth
+*.pt
+metric_cache/
+feature_cache/
+outputs/
+data/
+datasets/
+# These are symlinks in the development workspace; omit the trailing slash so
+# Git ignores both symlinks and real directories.
+dataset
+exp
+*.csv
+*.log

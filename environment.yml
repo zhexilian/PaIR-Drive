@@ -1,0 +1,8 @@
+name: pairdrive
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.23
+  - pip=23.3.1
+  - pip:
+      - -e .
